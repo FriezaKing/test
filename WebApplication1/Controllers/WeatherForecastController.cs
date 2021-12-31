@@ -21,7 +21,7 @@ namespace WebApplication1.Controllers
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
-            _logger.LogInformation("hello baby.");
+            _logger.LogInformation("hello baby. friezaking edit");
 
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
